@@ -1,0 +1,144 @@
+<style>
+  .container{
+    max-width: auto !important;
+  }
+  .container .jumbotron{
+    padding: 30px;
+  }
+  .dropdown > a{
+    font-size: 25px;
+    margin-top: 5px
+  }
+  .navbar-brand{
+    font-size: 25px;
+    margin-top: 5px
+  }
+
+</style>
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-header">
+    <a class="navbar-brand" style="margin-top: 5px;" >NGSC</a>    
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse" style="margin-top: 5px;">
+    <ul class="nav navbar-nav">
+      <li class="dropdown active">
+        <a class="dropdown-toggle" data-toggle="dropdown"> 
+          <span class="glyphicon glyphicon-flash"> </span> Get Started <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">New PI</a></li>
+          <li><a href="#">New Investigator</a></li>
+          <li><a href="#">New Experiment</a></li>
+          <li><a href="#">New Samples</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Protocols</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">People</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Consulting, Shipping & Data</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">
+          <span class="glyphicon glyphicon-transfer"> </span> Progress <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">My Samples</a></li>
+          <li><a href="#">My Investigations</a></li>
+          <li><a href="#">My Experiments</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">
+        <span class="glyphicon glyphicon-transfer"> Results <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Studies</a></li>
+          <li><a href="#">Tracks</a></li>
+          <li class="divider"></li>
+          <li><a href="#">TessLA(Old)</a></li>
+          <li><a href="#">TessLA(New)</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Download Data</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <form class="navbar-form navbar-right" role="login">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="username">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="password">
+      </div>
+      <button type="submit" class="btn btn-primary navbar-btn" style="line-height: .45;">Login</button></br>
+      <span><a ng-href="#">new user ?</a> <a ng-href="#">forgot password ?</a></span>
+    </form>
+  </div>
+</div>
+
+<div class="jumbotron" style="margin-top:10px">
+  <div class="row">
+    <div class="col-md-3">
+      <img src="http://fgc.genomics.upenn.edu/assets/psom_logo_blue.png" alt="NGSC" style="margin-top:20px">
+    </div>
+    <div class="col-md-9">
+    <h3 class="" style="text-align:justify">The <b>Next-Generation Sequencing Core</b> offers comprehensive
+            high-throughput sequencing services from <b>experiment
+            design</b> to <b>basic data analysis</b> to members of the
+            <b>University of Pennsylvania</b></h3>
+    </div>
+  </div>
+  
+  <p class="lead">
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!</a></p>
+</div>
+<div class="row marketing">
+  <div class="list-group col-md-3">
+    <a class="list-group-item active">
+      <h4 class="list-group-item-heading">Get Started</h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text" >New PI Account <span class="glyphicon glyphicon-chevron-right pull-right"></span></h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text" >New Inv Account <span class="glyphicon glyphicon-chevron-right pull-right"></span> </h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text">New Experiment <span class="glyphicon glyphicon-chevron-right pull-right"></span> </h4>
+    </a>
+  </div>
+  <div class="list-group col-md-3">
+    <a class="list-group-item active" >
+      <h4 class="list-group-item-heading active">Progress</h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text">My Investigations <span class="glyphicon glyphicon-chevron-right pull-right"></span></h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text">My Samples <span class="glyphicon glyphicon-chevron-right pull-right"></span></h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text">My Queue <span class="glyphicon glyphicon-chevron-right pull-right"></span></h4>
+    </a>
+  </div>
+  <div class="list-group col-md-3">
+    <a class="list-group-item active">
+      <h4 class="list-group-item-heading">Results </h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text">TessLA (Old) <span class="glyphicon glyphicon-chevron-right pull-right"></span></h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text">TessLA (New) <span class="glyphicon glyphicon-chevron-right pull-right"></span></h4>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-text">Download Data <span class="glyphicon glyphicon-chevron-right pull-right"></span> </h4>
+    </a>
+  </div>
+</div>
+<div class="footer">
+  <p>© Next Generation Sequencing Core, University of Pennsylvania</p>
+</div>
